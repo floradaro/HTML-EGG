@@ -1,0 +1,32 @@
+table {
+    width: 300pt;
+    text-align: left;
+    border-collapse: collapse;
+    border-bottom: #333;
+    border-top: #333;
+    border-left: #333;
+    border-right: #333;
+    font-family: Arial;
+}
+tr th{
+    background-image: url(imagenes/fondo_gris.gif);
+    text-align: center;
+}
+th:nth-child {
+    background:red;
+}
+
+td{
+    text-align: center;
+}
+
+.peso {
+    text-align: left;
+    background: #e6f3ff;
+}
+
+
+
+tr:nth-child(even){
+    background: #FFFFCC;
+}
